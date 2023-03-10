@@ -3,7 +3,7 @@ import re
 
 
 def task10(text):
-    pattern = '[A-Z][^A-Z]*' 
+    pattern = '[A-Z][a-z]*' 
     # poidee tut ne ochen' pravilno but i am so tired
     # for i in range (1, len(x)):
     #    
