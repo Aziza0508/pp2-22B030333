@@ -1,7 +1,4 @@
 import re
-import string
-
-# ЗАЧЕЕЕЕЕЕМ НУЖЕН ИМПОРТ СТРИНГ????
 
 # a and 0+ b's
 text1 = "abbb"
