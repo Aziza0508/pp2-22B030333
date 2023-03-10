@@ -1,6 +1,8 @@
 import os
 
 
-def getNumberOfLines(path: str):
-    with open(path) as file:
-        print(len(file.readlines()))
+def writeListToFile(path: str, data: list):
+    with open(path, "a") as file:
+        file.writelines(data)
+
+writeListToFile("input.txt", ["a", "b", "c"])
